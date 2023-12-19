@@ -8,7 +8,7 @@
       name="description"
       content="Autofix is a company that provides auto maintenance and repair services."
     />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,11 +24,50 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- preload images -->
-    <link rel="preload" href="./imgs/hero-banner.png">
-    <link rel="preload" href="./imgs/hero-bg.jpg">
+    <link rel="preload" href="./imgs/hero-banner.png" />
+    <link rel="preload" href="./imgs/hero-bg.jpg" />
     <title>Autofix - Auto Maintenance & Repair Service</title>
   </head>
   <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./imgs/logo.png"
+            width="128"
+            height="63"
+            alt="autofix home"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li><a href="#home" class="navbar-link">Home</a></li>
+          </ul>
+          <ul class="navbar-list">
+            <li><a href="#about" class="navbar-link">About</a></li>
+          </ul>
+          <ul class="navbar-list">
+            <li><a href="#services" class="navbar-link">Services</a></li>
+          </ul>
+          <ul class="navbar-list">
+            <li><a href="#projects" class="navbar-link">Projects</a></li>
+          </ul>
+          <ul class="navbar-list">
+            <li><a href="#contact" class="navbar-link">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn btn-primary">
+          <span class="span">Get a Quote</span>
+          <span class="material-symbols-rounded">arrow_forward</span>
+        </a>
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="nav-toggle-icon icon-1"></span>
+          <span class="nav-toggle-icon icon-2"></span>
+          <span class="nav-toggle-icon icon-3"></span>
+        </button>
+      </div>
+    </header>
     <script src="./js/script.js"></script>
   </body>
 </html>
