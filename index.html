@@ -26,10 +26,11 @@
     <!-- preload images -->
     <link rel="preload" href="./imgs/hero-banner.png" />
     <link rel="preload" href="./imgs/hero-bg.jpg" />
+
     <title>Autofix - Auto Maintenance & Repair Service</title>
   </head>
   <body>
-    <!-- Header -->
+    <!-- ========= Header ========= -->
     <header class="header">
       <div class="container">
         <a href="#" class="logo">
@@ -61,13 +62,56 @@
           <span class="span">Get a Quote</span>
           <span class="material-symbols-rounded">arrow_forward</span>
         </a>
-        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
           <span class="nav-toggle-icon icon-1"></span>
           <span class="nav-toggle-icon icon-2"></span>
           <span class="nav-toggle-icon icon-3"></span>
         </button>
       </div>
     </header>
+
+    <main>
+      <article>
+        <!-- ========= Hero ========= -->
+        <section
+          class="hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./imgs/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle :dark">
+                We have talented engineers & mechanics
+              </p>
+              <h1 class="h1 section-title">
+                Auto Maintenance & Repair Service
+              </h1>
+              <p class="section-text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                Excepteur sint occaecat cupidatat non proident.
+              </p>
+              <a href="#" class="btn">
+                <span class="span">Our Services</span>
+                <span class="material-symbols-rounded">arrow_forward</span>
+              </a>
+            </div>
+            <figure class="hero-banner" style="--width: 1228; --height: 789">
+              <img
+                src="./imgs/hero-banner.png"
+                width="1228"
+                height="789"
+                alt="red motor vehicle"
+                class="move-anim"
+              />
+            </figure>
+          </div>
+        </section>
+      </article>
+    </main>
     <script src="./js/script.js"></script>
   </body>
 </html>
