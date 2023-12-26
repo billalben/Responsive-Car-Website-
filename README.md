@@ -25,3 +25,7 @@ This project is a responsive website dedicated to providing information and serv
 **HTML Structure**: The HTML is well-structured, following best practices for semantic markup to enhance accessibility and search engine optimization.
 
 **CSS Styling**: Cascading Style Sheets (CSS) are used to create visually appealing and consistent styles throughout the website. The stylesheet is organized, making it easy to maintain and update.
+
+### Acknowledgments
+
+Special thanks to [codewithsadee](https://github.com/codewithsadee), his expertise in writing clean code, creating well-structured HTML, efficient CSS styling, and clean JavaScript code, whose tutorials and guidance have been instrumental in the development of the GitHub App project.
